@@ -384,7 +384,6 @@ padding:40px;
 color: rgb(14, 14, 14);
 font-size: 40px;
 font-weight: 700;
-line-height: 48px;
 text-align: center;
 }
 .donate-details{
@@ -461,6 +460,37 @@ font-weight: 700;
               text-align: center;
               margin-left:50px;
             }
+      .newsletter{
+        flex-direction: row;
+        border-radius: 24px;
+        margin: 24px 100px; 
+        background-color:#C6E4D6; 
+        padding: 60px 80px 60px 80px;
+      } 
+      input[type="email"]
+            {
+                box-sizing: border-box;
+                border: 1px solid rgba(14, 14, 14, 0.15);
+                background: rgb(255, 255, 255);
+               width: 600px;
+              height: 64px;
+              padding: 20px 40px 20px 40px;
+              margin: 32px 0px;
+              text-align: center;
+              margin-left:150px;
+              font-size: 18px;
+            } 
+            .btn9{
+                padding: 20px 60px 20px 60px;
+                border-radius: 8px;
+                background: rgb(0, 106, 80);
+                border: none;
+                color: rgb(255, 255, 255);
+                font-size: 18px;
+                font-weight: 600;
+                text-align: left;
+                margin-bottom:30px;
+            }    
 
 
 
