@@ -67,6 +67,40 @@ font-size: 18px;
 font-weight: 600;
 text-align: left;
 }
+.about{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    margin: 0 100px 0 100px;
+}
+.about-title{
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 100px;
+margin-top: 80px;
+}
+.box{   
+width: 500px;
+height: 300px;
+padding: 24px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+margin-right: 25px; 
+padding: 30px;
+margin-bottom: 50px;
+}
+.card-title{
+    color: #0E0E0E;
+    font-size: 20px;
+    font-weight: bold;
+}
 
 
 
