@@ -1,5 +1,6 @@
 *{
     font-family: "Fira Sans", serif;
+    
 }
 body{
     background-color: #F5F5F5;
@@ -225,6 +226,58 @@ font-weight: 600;
 line-height: 24px;
 letter-spacing: 0%;
 text-align: left;
+}
+.opinion-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 80px;  
+}
+table{
+ width: 100%;
+border-collapse: collapse;
+background: rgb(255, 255, 255);
+border-radius: 16px;
+align-items: center;
+
+}
+th{
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(198, 228, 214);
+padding: 24px;
+color: rgb(14, 14, 14);
+font-size: 20px;
+font-weight: 600;
+text-align: left;
+}
+select{
+box-sizing: border-box;
+border: 1px solid rgb(14, 14, 14);
+border-radius: 4px;
+background: rgb(198, 228, 214);
+padding: 10px 14px 10px 14px;
+margin-left:30%;
+}
+
+td{
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: rgba(255, 255, 255, 0.1);
+padding: 12px;
+align-items: center;
+}
+#opinion{
+display: flex;
+width: 1200px;
+border-radius: 16px;
+background: rgb(255, 255, 255);
+margin-left: 100px;
+padding:40px;
 }
 
 
