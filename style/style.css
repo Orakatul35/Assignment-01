@@ -279,5 +279,107 @@ background: rgb(255, 255, 255);
 margin-left: 100px;
 padding:40px;
 }
+.news-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 80px; 
+}
+.news-details{
+    color: #393A3A;
+    font-size: 16px;
+    font-weight:400;
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px; 
+}
+.news-image{
+    width: 408px;
+    height: 306px;
+    margin: 0px 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 24px;
+    background: url(../images/satelite.png);
+    background-repeat: no-repeat;
+}
+.news-contain{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    border-radius: 24px;
+    margin: 24px 100px; 
+    background-color:rgb(255, 255, 255);
+    padding: 40px; 
+}
+.news-part{
+    width:1000px;
+    color: #393A3A;
+    font-size: 16px;
+    font-weight:400;
+    text-align: left;
+}
+.btn7{
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    background:rgb(0, 106, 80);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom:30px;
+}
+
+.news-details2{
+    color: #393A3A;
+    font-size: 16px;
+    font-weight:400;
+    text-align: left;
+}
+.news-image2{
+    width: 408px;
+    height: 306px;
+    margin: 0px 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 24px;
+    background: url(../images/satelite.png);
+    background-repeat: no-repeat;
+}
+.news-contain2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    border-radius: 24px;
+    margin: 24px 100px; 
+    background-color:rgb(255, 255, 255);
+    padding: 40px; 
+}
+.news-part2{
+    width:1000px;
+    color: #393A3A;
+    font-size: 16px;
+    font-weight:400;
+    text-align: left;
+}
+.btn7{
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    background:rgb(0, 106, 80);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom:30px;
+}
+
 
 
