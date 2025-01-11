@@ -79,7 +79,6 @@ font-family: Fira Sans;
 font-size: 40px;
 font-weight: 700;
 line-height: 48px;
-letter-spacing: 0%;
 text-align: left;
 margin-left: 100px;
 margin-top: 80px;
@@ -101,6 +100,131 @@ margin-bottom: 50px;
     font-size: 20px;
     font-weight: bold;
 }
-
+.card-details{
+    color: #393A3A;
+}
+.vision-contain{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    margin: 0 100px 0 100px;
+}
+.box-4{
+    width: 500px;
+    height: 300px;
+    padding: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    margin-right: 25px; 
+    padding: 30px;
+    margin-bottom: 50px;
+}
+.box-5{
+    width: 500px;
+    height: 300px;
+    padding: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: #C6E4D6;
+    margin-right: 25px; 
+    padding: 30px;
+    margin-bottom: 50px;
+}
+.box-6{
+      width: 500px;
+    height: 300px;
+    padding: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background:#F7EBCF;;
+    margin-right: 25px; 
+    padding: 30px 30px;
+    margin-bottom: 50px;                                                                    
+    
+}
+.vision-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 80px;  
+}
+.vision-details{
+    color: #393A3A;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight:400;
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;  
+}
+.btn3{
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    background:rgb(84, 144, 245);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom:30px;
+}
+.btn4{
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom:30px;
+}
+.btn5{
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    background:rgb(255, 194, 57);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom:30px;
+}
+.quotes-contain{ 
+    border-radius: 24px;
+    margin: 24px 100px; 
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-image: url(../images/quote-bg.png);
+    background-repeat: no-repeat;
+    padding:40px 80px 40px 80px;
+    padding-left: 80px;
+    
+}
+.quotes-details{
+    color: rgba(14,14,14,0.8);
+    font-size: 15px;
+    font-weight:400;
+    line-height: 24px;
+    text-align: left;
+}
+span{
+color:rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 25px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
 
 
