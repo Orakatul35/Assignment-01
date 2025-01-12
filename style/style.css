@@ -405,61 +405,26 @@ color: rgba(14, 14, 14, 0.8);
 font-size: 40px;
 font-weight: 700;
 }
-.btnd2{
-    box-sizing: border-box;
-    border: 1px solid rgba(14, 14, 14, 0.15);
-    border-radius: 16px;
-    background:rgb(198, 228, 214);
-    width: 240px;
-    height: 128px;
-    padding: 20px;
-    margin: 0px 24px;
-    color: rgba(14, 14, 14, 0.8);
-    font-size: 40px;
-    font-weight: 700;
-    }
-    .btnd3{
-        box-sizing: border-box;
-        border: 1px solid rgba(14, 14, 14, 0.15);
-        border-radius: 16px;
-        background: rgb(255, 255, 255);
-        width: 240px;
-        height: 128px;
-        padding: 20px;
-        margin: 0px 24px;
-        color: rgba(14, 14, 14, 0.8);
-        font-size: 40px;
-        font-weight: 700;
-        }
-        .btnd4{
-            box-sizing: border-box;
-            border: 1px solid rgba(14, 14, 14, 0.15);
-            border-radius: 16px;
-            background: rgb(255, 255, 255);
-            width: 240px;
-            height: 128px;
-            padding: 20px;
-            margin: 0px 24px;
-            color: rgba(14, 14, 14, 0.8);
-            font-size: 40px;
-            font-weight: 700;
-            }
-            .Dbutton{
-                margin-left: 150px;
+.btn:hover{
+    background-color: #006A50;
+}
+    .Dbutton{
+    margin-left: 150px;
               
-            }
-            input[type="text"]
-            {
-                box-sizing: border-box;
-                border: 1px solid rgba(14, 14, 14, 0.15);
-                background: rgb(255, 255, 255);
-               width: 1032px;
-               height: 64px;
-              padding: 20px 40px 20px 40px;
-              margin: 32px 0px;
-              text-align: center;
-              margin-left:50px;
-            }
+    }
+    input[type="text"]
+    {
+     box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    width: 1032px;
+    height: 64px;
+    padding: 20px 40px 20px 40px;
+    margin: 32px 0px;
+     text-align: center;
+    margin-left:50px;
+    }
+
       .newsletter{
         flex-direction: row;
         border-radius: 24px;
@@ -469,10 +434,10 @@ font-weight: 700;
       } 
       input[type="email"]
             {
-                box-sizing: border-box;
-                border: 1px solid rgba(14, 14, 14, 0.15);
-                background: rgb(255, 255, 255);
-               width: 600px;
+              box-sizing: border-box;
+              border:none;
+              background: rgb(255, 255, 255);
+              width: 650px;
               height: 64px;
               padding: 20px 40px 20px 40px;
               margin: 32px 0px;
@@ -490,7 +455,32 @@ font-weight: 700;
                 font-weight: 600;
                 text-align: left;
                 margin-bottom:30px;
-            }    
-
+            } 
+ 
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    margin: 100px;
+}
+.footer-title{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    margin-top: 80px; 
+}
+.icon{
+    display: flex;
+    justify-content: center;
+}
+.icon1{
+padding: 20px;
+width: 18px;
+height: 18.83px;
+left: 7.69px;
+top: 5.17px;
+}
 
 
